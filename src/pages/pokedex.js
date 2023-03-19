@@ -2,15 +2,15 @@ import Head from 'next/head'
 import Layout from '@/components/Layout'
 import SearchBar from '@/components/SearchBar'
 
-export default function Home() {
+export default function Pokedex() {
   return (
     <Layout>
-      <div className="nes-container p-3 m-3 flex flex-col h-screen justify-between">
+      <div className="nes-container p-3 m-3">
         <div className="message-list">
           <div className="message -left">
             <h1 className="text-3xl font-bold underline nes-balloon from-left">
             <i className="nes-pokeball mx-5 my-1"></i>
-              Pick your Pokémon
+              Pokédex
             </h1>
           </div>
           <div className="searchBar">
