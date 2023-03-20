@@ -5,7 +5,7 @@ import SearchBar from '@/components/SearchBar'
 export default function Home() {
   return (
     <Layout>
-      <div className="nes-container p-3 m-3 flex flex-col h-screen justify-between">
+      <div className="nes-container">
         <div className="message-list">
           <div className="message -left">
             <h1 className="text-3xl font-bold underline nes-balloon from-left">
